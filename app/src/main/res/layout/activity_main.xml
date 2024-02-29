@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/xyAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угол xy: "
+            android:textSize="25sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/xyValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="25sp" >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/xzAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угол xz: "
+            android:textSize="25sp" >
+
+        </TextView>
+        <TextView
+            android:id="@+id/xzValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="25sp" >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/yzAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угол yz: "
+            android:textSize="25sp" >
+
+        </TextView>
+        <TextView
+            android:id="@+id/yzValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="25sp" >
+
+        </TextView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/ball"
+        android:id="@+id/emoji"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+
+</LinearLayout>
